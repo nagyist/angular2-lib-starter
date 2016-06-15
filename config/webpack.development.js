@@ -8,6 +8,5 @@ module.exports = merge(defaultConfig, {
   output: {
     path: 'dist'
   },
-  debug: true,
-  devtool: 'cheap-sourcemap'
+  devtool: 'sourcemap'
 });

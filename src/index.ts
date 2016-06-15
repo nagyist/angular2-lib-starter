@@ -1,1 +1,1 @@
-const message: string = 'hello';
+export {AcDebug} from './debug';

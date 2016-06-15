@@ -4,10 +4,13 @@ var webpack = require('webpack');
 module.exports = {
   entry: './src/index.ts',
   output: {
-    filename: pckgJson.name + '.js',
+    filename: 'ac-debug.js',
     path: 'dist',
     libraryTarget: 'umd',
-    library: pckgJson.name 
+    library: 'ac-debug'
+  },
+  resolve: {
+    extensions: ['', '.js', '.ts']
   },
 
   externals: {
